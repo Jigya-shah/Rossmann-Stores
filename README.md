@@ -8,7 +8,7 @@ As the dataset lacked in certain cases, like providing information about the loc
 
 Link to the datasets used: https://drive.google.com/drive/folders/1XC2Q6fZ58DclicGXP1ajgZD_nW0C9Dyp?usp=sharing 
 
-This project is split into 3 phases:
+This project is split into 2 phases:
 
 ### Phase 01
 Phase 01 of the project dealt with Data Cleaning, EDA and feature Engineering.
@@ -17,16 +17,12 @@ Phase 01 of the project dealt with Data Cleaning, EDA and feature Engineering.
 Phase 02 of the project dealt with using various ML models (Multi Linear Regression, Lasso Regression, Gradient Boosted Trees, RNN) to predict Sales of the Rossmann Stores.
 Among all the models used the gradient boosted trees models (LGBM model) shows most promise, with score of 98%
 
-### Phase 03
-Phase 03 dealt with using all the data inferred, from the previous phases, to create a simple business dashboard using tableau.
-
 ## Run the project locally
 
 ### Requirements
 - Python 3.x 
 - Jupyter
 - Required ML libraries & visualisation libraries (scikit-learn, keras, tenserflow, numpy, pandas, seaborn, matplotlib) 
-- Tableau Desktop
 
 ##### ipython files
 - Download the ipython files present under **code** folder of the repo
@@ -41,11 +37,6 @@ final_RossmannSales.csv is used as input for the second ipython file, alternativ
 - Rossmann_Stores_cleaning_EDA_feature_engg.ipynb on [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DsQ7wRGrX66ma65QItQb7HptiVo3wBPY?usp=sharing) 
 - predict_RossmannSales.ipynb on [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mgUAhohqbsJm9oivW5QH2e0Lpy7_XpDw?usp=sharing)
 
-## Run tableau playbook locally
-- Download the tableau playbook present under the **tableau** folder of the repo & final_RossmannSales.csv from the provided drive link.
-- Establish a live data source connection & run
-
-Alternatively, you can check it out on Tableau Online
 
 
 [![image](https://user-images.githubusercontent.com/44095548/103937966-904a8080-514f-11eb-8962-4c3553b1e1b4.png)](https://prod-apnortheast-a.online.tableau.com/t/rossmannstores/views/Rossmann_project/ExecutiveOverview/nayak.amit.blr@gmail.com/55b376ad-20d8-48c6-8596-902ad5cebf6c?:display_count=n&:showVizHome=n&:origin=viz_share_link)
